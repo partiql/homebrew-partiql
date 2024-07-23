@@ -13,42 +13,29 @@ To tap this repository and make the formulas available on your system, run:
 brew tap partiql/partiql 
 ```
 
-### Usage
-We currently publish one formula, `partiql-cli`. To install, run:
+We currently publish one formula, [partiql-cli](https://github.com/partiql/partiql-lang-kotlin/wiki/Command-Line-Tutorial). It is an interactive shell, or Read Evaluate Print Loop (REPL), that allows users to write and evaluate PartiQL queries. 
+ To install, run:
 ```
 brew install partiql-cli
 ```
+This command fetches and installs the latest version of `partiql-cli`, setting up all necessary dependencies on your macOS or Linux system.
 
+### Usage
+After installation, you can start using command:
 ```bash
-brew install partiql-tool   # Replace 'partiql-tool' with the actual formula name e.g. 'partiql-cli'
+partiql
 ```
-
-### Available Formulas
-This tap includes the following Homebrew formulas:
-
-+ `partiql-cli`: [partiql-cli](https://github.com/partiql/partiql-lang-kotlin/wiki/Command-Line-Tutorial) is an interactive shell, or Read Evaluate Print Loop (REPL), that allows users to write and evaluate PartiQL queries. 
-
-    Install `partiql-cli` using the following Homebrew command:
-    ```bash
-    brew install partiql-cli
-    ```
-    This command fetches and installs the latest version of `partiql-cli`, setting up all necessary dependencies on your macOS or Linux system.
-## Usage
-    After installation, you can start using command:
-    ```bash
-    partiql
-    ```
-    For a comprehensive list of options and more detailed help, you can use the help command:
-    ```
-    partiql --help
-    ```
-    This will display usage information, command line options and guidance to help you get started.
+For a comprehensive list of options and more detailed help, you can use the help command:
+```
+partiql --help
+```
+This will display usage information, command line options and guidance to help you get started.
 
 ### Uninstallation
 To untap this repository and delete the formulas from your system, run: 
 
 ```bash
-brew untap partiql/partiql 
+brew untap partiql/partiql && brew uninstall partiql-cli
 ```
 
 ## Security
