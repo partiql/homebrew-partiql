@@ -33,7 +33,7 @@ This tap includes the following Homebrew formulas:
     brew install partiql-cli
     ```
     This command fetches and installs the latest version of `partiql-cli`, setting up all necessary dependencies on your macOS or Linux system.
-
+## Usage
     After installation, you can start using command:
     ```bash
     partiql
