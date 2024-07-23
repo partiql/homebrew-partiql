@@ -14,7 +14,10 @@ brew tap partiql/partiql
 ```
 
 ### Usage
-Once the tap is added, you can install PartiQL applications using the `brew install` command. For example:
+We currently publish one formula, `partiql-cli`. To install, run:
+```
+brew install partiql-cli
+```
 
 ```bash
 brew install partiql-tool   # Replace 'partiql-tool' with the actual formula name e.g. 'partiql-cli'
