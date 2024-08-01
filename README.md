@@ -35,7 +35,7 @@ This will display usage information, command line options and guidance to help y
 To untap this repository and delete the formulas from your system, run: 
 
 ```bash
-brew untap partiql/partiql && brew uninstall partiql-cli
+brew uninstall partiql-cli && brew untap partiql/partiql
 ```
 
 ## Security
