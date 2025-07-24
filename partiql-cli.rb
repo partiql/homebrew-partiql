@@ -1,8 +1,8 @@
 class PartiqlCli < Formula
     desc "PartiQL CLI."
     homepage "https://partiql.org/"
-    url "https://github.com/partiql/partiql-lang-kotlin/releases/download/v1.2.0/partiql-cli-1.2.0.tgz"
-    sha256 "d6014ca4b06bd31f4e03850aaf2ba0b01e94bc0f556bbdf9e90615b5883b1f01"
+    url "https://github.com/partiql/partiql-lang-kotlin/releases/download/v1.2.2/partiql-cli-1.2.2.tgz"
+    sha256 "fc4b1508f1caec6522993e83d626ae0da619f42132f73c1f9ef389437862681b"
     license "Apache-2.0"
     depends_on "openjdk"
   
