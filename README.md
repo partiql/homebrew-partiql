@@ -15,10 +15,17 @@ brew tap partiql/partiql
 
 We currently publish one formula, [partiql-cli](https://github.com/partiql/partiql-lang-kotlin/wiki/Command-Line-Tutorial). It is an interactive shell, or Read Evaluate Print Loop (REPL), that allows users to write and evaluate PartiQL queries. 
  To install, run:
-```
+```bash
 brew install partiql-cli
 ```
 This command fetches and installs the latest version of `partiql-cli`, setting up all necessary dependencies on your macOS or Linux system.
+
+### Upgrade
+To upgrade `partiql-cli` to the latest version, run:
+```bash
+brew upgrade partiql-cli
+```
+This command will update your existing installation to the newest available version.
 
 ### Usage
 After installation, you can start using command:
